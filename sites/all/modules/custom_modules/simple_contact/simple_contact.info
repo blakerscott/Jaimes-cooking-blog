@@ -1,0 +1,5 @@
+name = Simple Contact
+description = Hide the subject line and the Send yourself a copy checkbox.
+package = Custom Modules
+core = 7.x
+files[] = simple_contact.module
