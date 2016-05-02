@@ -1,3 +1,0 @@
-List of Fonts used in template 
-
-Raleway		http://www.google.com/fonts/#UsePlace:use/Collection:Raleway:100,300,400,500,600,700
