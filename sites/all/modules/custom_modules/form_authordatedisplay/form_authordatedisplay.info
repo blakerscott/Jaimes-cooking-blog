@@ -1,0 +1,5 @@
+name = Form Author and Date Display
+description =  Set the author and date checkbox to 0 instead of 1
+package = Custom Modules
+core = 7.x
+files[] = form_authordatedisplay.module
