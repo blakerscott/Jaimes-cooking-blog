@@ -1,0 +1,5 @@
+name = Simple Recipe
+description = Clean up the form when adding a recipe.
+package = Custom Modules
+core = 7.x
+files[] = simple_recipe.module
