@@ -1,0 +1,5 @@
+name = Social Media
+description = Links for social media
+package = Custom Modules
+core = 7.x
+files[] = social_media.module  
