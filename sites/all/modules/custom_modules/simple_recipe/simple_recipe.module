@@ -4,10 +4,15 @@ function simple_recipe_form_alter(&$form, &$form_state, &$form_id) {
   if ($form_id === 'recipe_node_form') {
     $form['menu']['#type'] = 'hidden';
     $form['path']['#type'] = 'hidden';
+    $form['revision_information']['#type'] = 'hidden';
+    $form['author']['#type'] = 'hidden';
+    $form['options']['promote']['#type'] = 'hidden';
+    $form['options']['sticky']['#type'] = 'hidden';
     $form['comment_settings']['#type'] = 'hidden';
     $form['comment_settings']['#default_value'] = 2;
-    print '<pre>';
-    print_r($form);
-    print '</pre>';
+
+    // print '<pre>';
+    // print_r($form);
+    // print '</pre>';
   }
 }
